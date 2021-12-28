@@ -1,0 +1,24 @@
+
+
+.undone, .js-done, .js-remove {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    color: transparent;
+    margin: 5px;
+}
+
+.js-done {
+    background-image: url('images/check.png');
+}
+
+.undone {
+    background-color: #2196f3;
+    background-image: none;
+}
+
+.js-remove {
+    background-image: url('images/trash-bin.png');
+}
+
